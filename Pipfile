@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-contrib-python = "*"
+numpy = "*"
+scipy = "*"
+scikit-image = "*"
+dlib = "*"
+face-recognition = "*"
+imutils = "*"
+opencv-python = "*"
+crypto = "*"
+pyopenssl = "*"
+black = "*"
+netifaces = "*"
+cryptography = "==2.5"
+flake8 = "*"
+matplotlib = "*"
+xlsxwriter = "*"
+pandas = "*"
+openpyxl = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"
